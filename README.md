@@ -44,8 +44,7 @@ Trocar por avaliações reais do Google assim que o cliente mandar.
 
 ## Logo
 
-Recortada do mockup enviado pelo cliente (`logo-bitola.png`, 512 px, fundo transparente em círculo).
-Para melhor qualidade, pedir ao cliente o arquivo original da logo (PNG/SVG).
+Arquivo PNG com fundo transparente enviado pelo cliente, aparado e exportado em 512, 256, 180 (apple-touch) e 64 px (favicon).
 
 ## Fotos
 
