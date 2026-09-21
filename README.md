@@ -76,7 +76,7 @@ Todas do Pexels, uso livre para fim comercial, baixadas e servidas localmente.
 
 - `hero-foz-eletrica.webp`: imagem ilustrativa gerada com a ferramenta integrada de imagens. Prompt final: fotografia editorial horizontal de um quadro de distribuição em manutenção, com mãos enluvadas em primeiro plano e as Cataratas do Iguaçu ao fundo; iluminação natural, sem logotipo nem texto.
 - `og-hero.jpg`: versão JPG da hero para prévia de link (WhatsApp, redes).
-- `bitola-profissional.webp`: **não é foto do cliente**. É a foto de banco do Pexels (<https://www.pexels.com/photo/27928762/>, usada antes na hero) retocada por IA. Trocar por foto real do eletricista da Bitola.
+- `sobre-teste-quadro.webp`: Unsplash, <https://unsplash.com/photos/PkHf7BUWbtk> (foto de banco, sem rosto). Se o cliente mandar foto real da equipe, trocar aqui.
 - O Instagram está em um destaque após a galeria de obras, na seção de atendimento e no rodapé.
 
 Ícones: Phosphor Icons (MIT). Fontes: Barlow e Barlow Condensed (Google Fonts, OFL).
