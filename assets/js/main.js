@@ -72,6 +72,39 @@
     });
   }
 
+  // Galeria de serviços realizados
+  var lb = document.getElementById("lightbox");
+  var works = Array.prototype.slice.call(document.querySelectorAll(".work"));
+  if (lb && works.length && typeof lb.showModal === "function") {
+    var lbImg = lb.querySelector("img");
+    var lbCap = lb.querySelector("figcaption");
+    var atual = 0;
+    var mostrar = function (i) {
+      atual = (i + works.length) % works.length;
+      var img = works[atual].querySelector("img");
+      lbImg.src = img.getAttribute("src");
+      lbImg.alt = img.alt;
+      lbCap.innerHTML = works[atual].querySelector("figcaption").innerHTML;
+    };
+    works.forEach(function (w, i) {
+      w.querySelector(".work-open").addEventListener("click", function () {
+        mostrar(i);
+        lb.showModal();
+      });
+    });
+    lb.querySelector(".lb-prev").addEventListener("click", function () { mostrar(atual - 1); });
+    lb.querySelector(".lb-next").addEventListener("click", function () { mostrar(atual + 1); });
+    lb.querySelector(".lb-close").addEventListener("click", function () { lb.close(); });
+    lb.addEventListener("click", function (e) { if (e.target === lb) lb.close(); });
+    lb.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowLeft") mostrar(atual - 1);
+      if (e.key === "ArrowRight") mostrar(atual + 1);
+    });
+    lb.addEventListener("close", function () {
+      works[atual].querySelector(".work-open").focus();
+    });
+  }
+
   var ano = document.getElementById("ano");
   if (ano) ano.textContent = new Date().getFullYear();
 })();

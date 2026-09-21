@@ -65,6 +65,7 @@
 
       <nav class="nav" id="nav" aria-label="Principal">
         <a href="#servicos">Serviços</a>
+        <a href="#obras">Obras</a>
         <a href="#sobre">Sobre</a>
         <a href="#depoimentos">Depoimentos</a>
         <a href="#atendimento">Atendimento</a>
@@ -193,6 +194,71 @@
           <li class="reveal" style="--d:240ms"><span class="cause-n" aria-hidden="true">4</span><div><h3>Tomadas velhas</h3><p>Tomadas gastas esquentam, desperdiçam energia e danificam aparelhos.</p></div></li>
         </ol>
       </div>
+    </section>
+
+    <!-- SERVIÇOS REALIZADOS -->
+    <section class="section works" id="obras">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Serviços realizados</h2>
+          <p>Fotos reais de trabalhos da Bitola. Toque em uma foto para ampliar.</p>
+        </header>
+
+        <div class="works-grid">
+          <figure class="work w-a reveal">
+            <button type="button" class="work-open" aria-label="Ampliar foto: montagem de quadro de distribuição">
+              <img src="assets/img/obras/qdc-montagem.jpg" alt="Quadro de distribuição em montagem, com disjuntores, DPS e cabos organizados por cor" width="1200" height="1200" loading="lazy">
+            </button>
+            <figcaption>Montagem de quadro de distribuição com DPS e cabos organizados</figcaption>
+          </figure>
+          <figure class="work w-b reveal" style="--d:80ms">
+            <button type="button" class="work-open" aria-label="Ampliar foto: quadro de comando">
+              <img src="assets/img/obras/quadro-comando.jpg" alt="Quadro de comando com disjuntor tripolar e fios identificados por anilhas coloridas" width="901" height="1200" loading="lazy">
+            </button>
+            <figcaption>Quadro de comando com fios identificados</figcaption>
+          </figure>
+          <figure class="work w-c reveal" style="--d:160ms">
+            <button type="button" class="work-open" aria-label="Ampliar foto: placas solares limpas">
+              <img src="assets/img/obras/placas-solares.jpg" alt="Placas solares limpas instaladas sobre o telhado" width="901" height="1200" loading="lazy">
+            </button>
+            <figcaption>Limpeza de placas solares</figcaption>
+          </figure>
+          <figure class="work w-d reveal">
+            <button type="button" class="work-open" aria-label="Ampliar foto: quadro de distribuição finalizado">
+              <img src="assets/img/obras/qdc-finalizado.jpg" alt="Quadro de distribuição de embutir finalizado, com tampa e disjuntores alinhados" width="1200" height="1200" loading="lazy">
+            </button>
+            <figcaption>Quadro de distribuição finalizado</figcaption>
+          </figure>
+          <figure class="work w-e reveal" style="--d:80ms">
+            <button type="button" class="work-open" aria-label="Ampliar foto: perfil de LED no teto">
+              <img src="assets/img/obras/perfil-led.jpg" alt="Perfil de LED embutido no teto de gesso formando uma linha de luz" width="610" height="1086" loading="lazy">
+            </button>
+            <figcaption>Perfil de LED embutido no gesso</figcaption>
+          </figure>
+          <figure class="work w-f reveal" style="--d:160ms">
+            <button type="button" class="work-open" aria-label="Ampliar foto: emenda de ramal antes do serviço">
+              <img src="assets/img/obras/ramal-antes.jpg" alt="Emenda antiga de ramal feita com fio enrolado, sem conector" width="1200" height="901" loading="lazy">
+            </button>
+            <figcaption><strong>Antes:</strong> emenda de ramal improvisada</figcaption>
+          </figure>
+          <figure class="work w-g reveal" style="--d:240ms">
+            <button type="button" class="work-open" aria-label="Ampliar foto: ramal refeito com conector">
+              <img src="assets/img/obras/ramal-depois.jpg" alt="Ramal refeito com conector perfurante novo" width="1200" height="901" loading="lazy">
+            </button>
+            <figcaption><strong>Depois:</strong> ramal refeito com conector adequado</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <dialog class="lightbox" id="lightbox" aria-label="Foto ampliada">
+        <button type="button" class="lb-close" aria-label="Fechar"><i class="ph ph-x" aria-hidden="true"></i></button>
+        <button type="button" class="lb-nav lb-prev" aria-label="Foto anterior"><i class="ph ph-caret-left" aria-hidden="true"></i></button>
+        <figure>
+          <img src="" alt="">
+          <figcaption></figcaption>
+        </figure>
+        <button type="button" class="lb-nav lb-next" aria-label="Próxima foto"><i class="ph ph-caret-right" aria-hidden="true"></i></button>
+      </dialog>
     </section>
 
     <!-- SOBRE -->
@@ -364,6 +430,7 @@
       <div class="footer-col">
         <h3>Navegação</h3>
         <a href="#servicos">Serviços</a>
+        <a href="#obras">Obras</a>
         <a href="#sobre">Sobre</a>
         <a href="#atendimento">Atendimento</a>
         <a href="#faq">Dúvidas</a>

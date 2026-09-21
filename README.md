@@ -46,7 +46,21 @@ Trocar por avaliações reais do Google assim que o cliente mandar.
 
 Arquivo PNG com fundo transparente enviado pelo cliente, aparado e exportado em 512, 256, 180 (apple-touch) e 64 px (favicon).
 
-## Fotos
+## Serviços realizados (fotos reais)
+
+Fotos enviadas pelo cliente via WhatsApp (21/09/2026), em `assets/img/obras/`, com ampliação ao clicar.
+Legendas deduzidas pelas fotos; confirmar com o cliente.
+
+| Arquivo | Legenda |
+|---|---|
+| `qdc-montagem.jpg` | Montagem de quadro de distribuição com DPS e cabos organizados |
+| `quadro-comando.jpg` | Quadro de comando com fios identificados |
+| `placas-solares.jpg` | Limpeza de placas solares |
+| `qdc-finalizado.jpg` | Quadro de distribuição finalizado |
+| `perfil-led.jpg` | Perfil de LED embutido no gesso (print recortado, resolução baixa) |
+| `ramal-antes.jpg` / `ramal-depois.jpg` | Antes e depois de emenda de ramal |
+
+## Fotos de banco
 
 Todas do Pexels, uso livre para fim comercial, baixadas e servidas localmente.
 
