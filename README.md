@@ -28,11 +28,12 @@ assets/
 | Cidade | Foz do Iguaçu - PR |
 | Horário | Aberto 24 horas |
 | Serviços | catálogo do WhatsApp + flyers |
+| Instagram | <https://www.instagram.com/bitola_servicos_eletricos/> |
 
 ## Confirmar com o cliente
 
 - **Telefone para ligação**: o WhatsApp mostra `9138-2401` (8 dígitos). O link `tel:` usa `+55 45 99138-2401` (com o 9 do celular). Confirmar se o número correto para ligar tem o 9.
-- **E-mail, Instagram, endereço e CNPJ**: não aparecem nos prints, por isso não estão no site. O mapa mostra só a cidade.
+- **E-mail, endereço e CNPJ**: não foram informados. O mapa mostra só a cidade.
 - **Preços**: o catálogo mostra R$ 300,00 em "circuitos de comando" e "montagem de quadro". Não foram publicados no site; o site fala em orçamento.
 - **Anos de experiência / número de clientes**: não informados, nenhum número foi inventado.
 
@@ -66,11 +67,16 @@ Todas do Pexels, uso livre para fim comercial, baixadas e servidas localmente.
 
 | Arquivo | Fonte |
 |---|---|
-| `hero-quadro.jpg` | <https://www.pexels.com/photo/27928762/> |
 | `quadro-disjuntores.jpg` | <https://www.pexels.com/photo/257736/> |
 | `tomadas.jpg` | <https://www.pexels.com/photo/5691588/> |
 | `iluminacao-led.jpg` | <https://www.pexels.com/photo/6585757/> |
 | `limpeza-solar.jpg` | <https://www.pexels.com/photo/33379364/> |
-| `eletricista-manutencao.jpg` | <https://www.pexels.com/photo/8005397/> |
+
+## Imagens novas
+
+- `hero-foz-eletrica.webp`: imagem ilustrativa gerada com a ferramenta integrada de imagens. Prompt final: fotografia editorial horizontal de um quadro de distribuição em manutenção, com mãos enluvadas em primeiro plano e as Cataratas do Iguaçu ao fundo; iluminação natural, sem logotipo nem texto.
+- `og-hero.jpg`: versão JPG da hero para prévia de link (WhatsApp, redes).
+- `bitola-profissional.webp`: **não é foto do cliente**. É a foto de banco do Pexels (<https://www.pexels.com/photo/27928762/>, usada antes na hero) retocada por IA. Trocar por foto real do eletricista da Bitola.
+- O Instagram está em um destaque após a galeria de obras, na seção de atendimento e no rodapé.
 
 Ícones: Phosphor Icons (MIT). Fontes: Barlow e Barlow Condensed (Google Fonts, OFL).
